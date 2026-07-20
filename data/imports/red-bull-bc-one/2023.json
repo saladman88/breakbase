@@ -1,0 +1,489 @@
+{
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21"
+  },
+  "eventSeries": {
+    "slug": "red-bull-bc-one",
+    "name": "Red Bull BC One"
+  },
+  "edition": {
+    "slug": "red-bull-bc-one-2023",
+    "name": "Red Bull BC One 2023",
+    "startsAt": "2023-10-21T18:00:00",
+    "timezone": "Europe/Paris",
+    "city": "Paris",
+    "countryCode": "FR",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [],
+    "mcs": [],
+    "djs": []
+  },
+  "divisions": [
+    {
+      "slug": "b-boy",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        {
+          "stageName": "Kid Colombia",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Kastrito",
+          "countryCode": "MX"
+        },
+        {
+          "stageName": "Phil Wizard",
+          "countryCode": "CA"
+        },
+        {
+          "stageName": "Amaro",
+          "countryCode": "IT"
+        },
+        {
+          "stageName": "Khalil",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Jeffro",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Issin",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Tiro",
+          "countryCode": "BE"
+        },
+        {
+          "stageName": "Hong 10",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Lego Sam",
+          "countryCode": "MY"
+        },
+        {
+          "stageName": "Kid Karam",
+          "countryCode": "GB"
+        },
+        {
+          "stageName": "Allef",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Wigor",
+          "countryCode": "PL"
+        },
+        {
+          "stageName": "Dany Dann",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Mighty Jake",
+          "countryCode": "VE"
+        },
+        {
+          "stageName": "X-Rain",
+          "countryCode": "CN"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Kid Colombia",
+          "competitorB": "Kastrito",
+          "winner": "Kastrito",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Amaro",
+          "winner": "Phil Wizard",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Khalil",
+          "competitorB": "Jeffro",
+          "winner": "Khalil",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Issin",
+          "competitorB": "Tiro",
+          "winner": "Issin",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Hong 10",
+          "competitorB": "Lego Sam",
+          "winner": "Hong 10",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Kid Karam",
+          "competitorB": "Allef",
+          "winner": "Kid Karam",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Wigor",
+          "competitorB": "Dany Dann",
+          "winner": "Dany Dann",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Mighty Jake",
+          "competitorB": "X-Rain",
+          "winner": "Mighty Jake",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Kastrito",
+          "competitorB": "Phil Wizard",
+          "winner": "Phil Wizard",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Khalil",
+          "competitorB": "Issin",
+          "winner": "Issin",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Hong 10",
+          "competitorB": "Kid Karam",
+          "winner": "Hong 10",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Dany Dann",
+          "competitorB": "Mighty Jake",
+          "winner": "Dany Dann",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Issin",
+          "winner": "Phil Wizard",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Hong 10",
+          "competitorB": "Dany Dann",
+          "winner": "Hong 10",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Hong 10",
+          "winner": "Hong 10",
+          "scoreA": 0,
+          "scoreB": 5
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Hong 10"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Phil Wizard"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Issin"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Dany Dann"
+        }
+      ]
+    },
+    {
+      "slug": "b-girl",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        {
+          "stageName": "Syssy",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Kotya",
+          "countryCode": "BY"
+        },
+        {
+          "stageName": "Firebird",
+          "countryCode": "BG"
+        },
+        {
+          "stageName": "671",
+          "countryCode": "CN"
+        },
+        {
+          "stageName": "Yasmin",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Maia",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Vanessa",
+          "countryCode": "PT"
+        },
+        {
+          "stageName": "Nicka",
+          "countryCode": "LT"
+        },
+        {
+          "stageName": "India",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Mono",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Stefani",
+          "countryCode": "GB"
+        },
+        {
+          "stageName": "Shun",
+          "countryCode": "VN"
+        },
+        {
+          "stageName": "Toquinha",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Ami",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Kimie",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Riko",
+          "countryCode": "JP"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Syssy",
+          "competitorB": "Kotya",
+          "winner": "Syssy",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Firebird",
+          "competitorB": "671",
+          "winner": "671",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Yasmin",
+          "competitorB": "Maia",
+          "winner": "Yasmin",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Vanessa",
+          "competitorB": "Nicka",
+          "winner": "Nicka",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "India",
+          "competitorB": "Mono",
+          "winner": "India",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Stefani",
+          "competitorB": "Shun",
+          "winner": "Stefani",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Toquinha",
+          "competitorB": "Ami",
+          "winner": "Ami",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Kimie",
+          "competitorB": "Riko",
+          "winner": "Riko",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Syssy",
+          "competitorB": "671",
+          "winner": "671",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Yasmin",
+          "competitorB": "Nicka",
+          "winner": "Nicka",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "India",
+          "competitorB": "Stefani",
+          "winner": "India",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Ami",
+          "competitorB": "Riko",
+          "winner": "Ami",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "671",
+          "competitorB": "Nicka",
+          "winner": "671",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "India",
+          "competitorB": "Ami",
+          "winner": "Ami",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "671",
+          "competitorB": "Ami",
+          "winner": "Ami",
+          "scoreA": 1,
+          "scoreB": 4
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Ami"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "671"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Nicka"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "India"
+        }
+      ]
+    }
+  ]
+}

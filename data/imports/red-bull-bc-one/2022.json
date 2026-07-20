@@ -1,0 +1,489 @@
+{
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21"
+  },
+  "eventSeries": {
+    "slug": "red-bull-bc-one",
+    "name": "Red Bull BC One"
+  },
+  "edition": {
+    "slug": "red-bull-bc-one-2022",
+    "name": "Red Bull BC One 2022",
+    "startsAt": "2022-11-12T18:00:00",
+    "timezone": "America/New_York",
+    "city": "New York City",
+    "countryCode": "US",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [],
+    "mcs": [],
+    "djs": []
+  },
+  "divisions": [
+    {
+      "slug": "b-boy",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        {
+          "stageName": "Alvin",
+          "countryCode": "VE"
+        },
+        {
+          "stageName": "Quake",
+          "countryCode": "TW"
+        },
+        {
+          "stageName": "Issin",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Lorenzo",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Amir",
+          "countryCode": "KZ"
+        },
+        {
+          "stageName": "Mighty Jimm",
+          "countryCode": "GR"
+        },
+        {
+          "stageName": "Lee",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Illz",
+          "countryCode": "CA"
+        },
+        {
+          "stageName": "Lil Zoo",
+          "countryCode": "MA"
+        },
+        {
+          "stageName": "Wildchild",
+          "countryCode": "IN"
+        },
+        {
+          "stageName": "Wigor",
+          "countryCode": "PL"
+        },
+        {
+          "stageName": "Yu-Ki",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Phil Wizard",
+          "countryCode": "CA"
+        },
+        {
+          "stageName": "Mini Joe",
+          "countryCode": "VE"
+        },
+        {
+          "stageName": "Victor",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Marlone",
+          "countryCode": "FR"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Alvin",
+          "competitorB": "Quake",
+          "winner": "Alvin",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Issin",
+          "competitorB": "Lorenzo",
+          "winner": "Issin",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Amir",
+          "competitorB": "Mighty Jimm",
+          "winner": "Amir",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Lee",
+          "competitorB": "Illz",
+          "winner": "Lee",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Lil Zoo",
+          "competitorB": "Wildchild",
+          "winner": "Lil Zoo",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Wigor",
+          "competitorB": "Yu-Ki",
+          "winner": "Yu-Ki",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Mini Joe",
+          "winner": "Phil Wizard",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Victor",
+          "competitorB": "Marlone",
+          "winner": "Victor",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Alvin",
+          "competitorB": "Issin",
+          "winner": "Issin",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Amir",
+          "competitorB": "Lee",
+          "winner": "Lee",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Lil Zoo",
+          "competitorB": "Yu-Ki",
+          "winner": "Yu-Ki",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Victor",
+          "winner": "Victor",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Issin",
+          "competitorB": "Lee",
+          "winner": "Lee",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Yu-Ki",
+          "competitorB": "Victor",
+          "winner": "Victor",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Lee",
+          "competitorB": "Victor",
+          "winner": "Victor",
+          "scoreA": 2,
+          "scoreB": 3
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Victor"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Lee"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Issin"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Yu-Ki"
+        }
+      ]
+    },
+    {
+      "slug": "b-girl",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        {
+          "stageName": "671",
+          "countryCode": "CN"
+        },
+        {
+          "stageName": "Alessandrina",
+          "countryCode": "IT"
+        },
+        {
+          "stageName": "Isis",
+          "countryCode": "EC"
+        },
+        {
+          "stageName": "Vanessa",
+          "countryCode": "PT"
+        },
+        {
+          "stageName": "Swami",
+          "countryCode": "MX"
+        },
+        {
+          "stageName": "Carlota",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "India",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Luma",
+          "countryCode": "CO"
+        },
+        {
+          "stageName": "Sunny",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Fresh Bella",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Kimie",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Paulina",
+          "countryCode": "PL"
+        },
+        {
+          "stageName": "Yuika",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Anti",
+          "countryCode": "IT"
+        },
+        {
+          "stageName": "Logistx",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Emma",
+          "countryCode": "CA"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "671",
+          "competitorB": "Alessandrina",
+          "winner": "671",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Isis",
+          "competitorB": "Vanessa",
+          "winner": "Vanessa",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Swami",
+          "competitorB": "Carlota",
+          "winner": "Swami",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "India",
+          "competitorB": "Luma",
+          "winner": "India",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Sunny",
+          "competitorB": "Fresh Bella",
+          "winner": "Sunny",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Kimie",
+          "competitorB": "Paulina",
+          "winner": "Kimie",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Yuika",
+          "competitorB": "Anti",
+          "winner": "Anti",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Logistx",
+          "competitorB": "Emma",
+          "winner": "Logistx",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "671",
+          "competitorB": "Vanessa",
+          "winner": "671",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Swami",
+          "competitorB": "India",
+          "winner": "India",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Sunny",
+          "competitorB": "Kimie",
+          "winner": "Sunny",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Anti",
+          "competitorB": "Logistx",
+          "winner": "Logistx",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "671",
+          "competitorB": "India",
+          "winner": "India",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Sunny",
+          "competitorB": "Logistx",
+          "winner": "Logistx",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "India",
+          "competitorB": "Logistx",
+          "winner": "India",
+          "scoreA": 3,
+          "scoreB": 2
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "India"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Logistx"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "671"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Sunny"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21"
+  },
+  "eventSeries": {
+    "slug": "red-bull-bc-one",
+    "name": "Red Bull BC One"
+  },
+  "edition": {
+    "slug": "red-bull-bc-one-2018",
+    "name": "Red Bull BC One 2018",
+    "startsAt": "2018-09-29T18:00:00",
+    "timezone": "Europe/Zurich",
+    "city": "Zurich",
+    "countryCode": "CH",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [],
+    "mcs": [],
+    "djs": []
+  },
+  "divisions": [
+    {
+      "slug": "b-boy",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        {
+          "stageName": "Issei",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Luka",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Cri6",
+          "countryCode": "MA"
+        },
+        {
+          "stageName": "Dr. Hill",
+          "countryCode": "MX"
+        },
+        {
+          "stageName": "The Wolfer",
+          "countryCode": "MA"
+        },
+        {
+          "stageName": "Nori",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Sunni",
+          "countryCode": "GB"
+        },
+        {
+          "stageName": "Luigi",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Lil Zoo",
+          "countryCode": "MA"
+        },
+        {
+          "stageName": "Vero",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Lil Kev",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Kid Colombia",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Victor",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Leony",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Uzee Rock",
+          "countryCode": "UA"
+        },
+        {
+          "stageName": "Chey",
+          "countryCode": "ES"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Issei",
+          "competitorB": "Luka",
+          "winner": "Issei",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Cri6",
+          "competitorB": "Dr. Hill",
+          "winner": "Dr. Hill",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "The Wolfer",
+          "competitorB": "Nori",
+          "winner": "The Wolfer",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Sunni",
+          "competitorB": "Luigi",
+          "winner": "Luigi",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Lil Zoo",
+          "competitorB": "Vero",
+          "winner": "Lil Zoo",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Lil Kev",
+          "competitorB": "Kid Colombia",
+          "winner": "Lil Kev",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Victor",
+          "competitorB": "Leony",
+          "winner": "Victor",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Uzee Rock",
+          "competitorB": "Chey",
+          "winner": "Uzee Rock",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Issei",
+          "competitorB": "Dr. Hill",
+          "winner": "Dr. Hill",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "The Wolfer",
+          "competitorB": "Luigi",
+          "winner": "Luigi",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Lil Zoo",
+          "competitorB": "Lil Kev",
+          "winner": "Lil Zoo",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Victor",
+          "competitorB": "Uzee Rock",
+          "winner": "Victor",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Dr. Hill",
+          "competitorB": "Luigi",
+          "winner": "Luigi",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Lil Zoo",
+          "competitorB": "Victor",
+          "winner": "Lil Zoo",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Luigi",
+          "competitorB": "Lil Zoo",
+          "winner": "Lil Zoo",
+          "scoreA": 1,
+          "scoreB": 3
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Lil Zoo"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Luigi"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Dr. Hill"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Victor"
+        }
+      ]
+    },
+    {
+      "slug": "b-girl",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        {
+          "stageName": "Mess",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Roxy",
+          "countryCode": "GB"
+        },
+        {
+          "stageName": "AT",
+          "countryCode": "FI"
+        },
+        {
+          "stageName": "San Andrea",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Ayumi",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "JK47",
+          "countryCode": "CA"
+        },
+        {
+          "stageName": "Sarah Bee",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Primary Soul",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Ami",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Kastet",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Kate",
+          "countryCode": "UA"
+        },
+        {
+          "stageName": "Mini Japa",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Sunny",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Paulina",
+          "countryCode": "PL"
+        },
+        {
+          "stageName": "Narumi",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Sayora",
+          "countryCode": "KZ"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Mess",
+          "competitorB": "Roxy",
+          "winner": "Roxy",
+          "scoreA": 1,
+          "scoreB": 3
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "AT",
+          "competitorB": "San Andrea",
+          "winner": "San Andrea",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Ayumi",
+          "competitorB": "JK47",
+          "winner": "Ayumi",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Sarah Bee",
+          "competitorB": "Primary Soul",
+          "winner": "Sarah Bee",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Ami",
+          "competitorB": "Kastet",
+          "winner": "Ami",
+          "scoreA": 3,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Kate",
+          "competitorB": "Mini Japa",
+          "winner": "Kate",
+          "scoreA": 4,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Sunny",
+          "competitorB": "Paulina",
+          "winner": "Sunny",
+          "scoreA": 4,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Narumi",
+          "competitorB": "Sayora",
+          "winner": "Narumi",
+          "scoreA": 4,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Roxy",
+          "competitorB": "San Andrea",
+          "winner": "San Andrea",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Ayumi",
+          "competitorB": "Sarah Bee",
+          "winner": "Ayumi",
+          "scoreA": 3,
+          "scoreB": 1
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Ami",
+          "competitorB": "Kate",
+          "winner": "Ami",
+          "scoreA": 3,
+          "scoreB": 1
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Sunny",
+          "competitorB": "Narumi",
+          "winner": "Narumi",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "San Andrea",
+          "competitorB": "Ayumi",
+          "winner": "San Andrea",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Ami",
+          "competitorB": "Narumi",
+          "winner": "Ami",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Ami",
+          "competitorB": "San Andrea",
+          "winner": "Ami",
+          "scoreA": 3,
+          "scoreB": 1
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Ami"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "San Andrea"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Ayumi"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Narumi"
+        }
+      ]
+    }
+  ]
+}

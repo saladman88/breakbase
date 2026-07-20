@@ -1,13 +1,20 @@
 <script lang="ts">
 	import PageShell from '../shared/PageShell.svelte';
 	import EventCard from '../events/EventCard.svelte';
-	import { events } from '$lib/data/breakbase';
+	import { events as mockEvents } from '$lib/data/breakbase';
+	import type { UpcomingEvent } from '$lib/types/breakbase';
+
+	let { events = mockEvents }: { events?: UpcomingEvent[] } = $props();
 </script>
 
 <PageShell active="events">
 	<header class="page-head"><div><span>Events</span><h1>Upcoming battles</h1></div><div class="sticker">Find the<br />next battle</div></header>
 	<div class="toolbar"><div class="pills"><button class="active">All</button><button>1V1</button><button>Crew</button><button>Kids</button><button>Online</button></div><label>Date filter<select><option>All dates</option><option>This month</option><option>Next 3 months</option></select></label></div>
-	<section class="grid">{#each events as event}<EventCard {...event} />{/each}</section>
+	{#if events.length > 0}
+		<section class="grid">{#each events as event}<EventCard {...event} />{/each}</section>
+	{:else}
+		<section class="empty"><strong>No upcoming battles yet.</strong><span>Add an announced event in Supabase and it will appear here.</span></section>
+	{/if}
 </PageShell>
 
 <style>
@@ -22,6 +29,9 @@
 	label { display: grid; gap: 6px; color: #879196; font-size: .6rem; font-weight: 700; text-transform: uppercase; }
 	select { min-width: 180px; }
 	.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+	.empty { display: grid; min-height: 260px; place-content: center; gap: 8px; color: #8f999e; border: 1px dashed #414b50; border-radius: 8px; text-align: center; text-transform: uppercase; }
+	.empty strong { color: var(--color-lime); font-family: 'Archivo Black'; font-size: 1.35rem; }
+	.empty span { font-size: .68rem; }
 	@media (max-width: 1050px) { .grid { grid-template-columns: repeat(2, 1fr); } }
 	@media (max-width: 620px) { .sticker { display: none; } .toolbar { align-items: stretch; flex-direction: column; } .grid { grid-template-columns: 1fr; } }
 </style>

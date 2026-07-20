@@ -1,0 +1,489 @@
+{
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21"
+  },
+  "eventSeries": {
+    "slug": "red-bull-bc-one",
+    "name": "Red Bull BC One"
+  },
+  "edition": {
+    "slug": "red-bull-bc-one-2019",
+    "name": "Red Bull BC One 2019",
+    "startsAt": "2019-11-09T18:00:00",
+    "timezone": "Asia/Kolkata",
+    "city": "Mumbai",
+    "countryCode": "IN",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [],
+    "mcs": [],
+    "djs": []
+  },
+  "divisions": [
+    {
+      "slug": "b-boy",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        {
+          "stageName": "Bumblebee",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Stripes",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Nori",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Menno",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Onel",
+          "countryCode": "GR"
+        },
+        {
+          "stageName": "Heady",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Kazuki Rock",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Phil Wizard",
+          "countryCode": "CA"
+        },
+        {
+          "stageName": "Beetle",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Khalil",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Monkey King",
+          "countryCode": "TW"
+        },
+        {
+          "stageName": "Bart",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Killa Kolya",
+          "countryCode": "KZ"
+        },
+        {
+          "stageName": "Lil Zoo",
+          "countryCode": "MA"
+        },
+        {
+          "stageName": "Robin",
+          "countryCode": "UA"
+        },
+        {
+          "stageName": "Flying Machine",
+          "countryCode": "IN"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Bumblebee",
+          "competitorB": "Stripes",
+          "winner": "Bumblebee",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Nori",
+          "competitorB": "Menno",
+          "winner": "Menno",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Onel",
+          "competitorB": "Heady",
+          "winner": "Onel",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Kazuki Rock",
+          "competitorB": "Phil Wizard",
+          "winner": "Kazuki Rock",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Beetle",
+          "competitorB": "Khalil",
+          "winner": "Beetle",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Monkey King",
+          "competitorB": "Bart",
+          "winner": "Bart",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Killa Kolya",
+          "competitorB": "Lil Zoo",
+          "winner": "Killa Kolya",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Robin",
+          "competitorB": "Flying Machine",
+          "winner": "Robin",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Bumblebee",
+          "competitorB": "Menno",
+          "winner": "Menno",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Onel",
+          "competitorB": "Kazuki Rock",
+          "winner": "Kazuki Rock",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Beetle",
+          "competitorB": "Bart",
+          "winner": "Bart",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Killa Kolya",
+          "competitorB": "Robin",
+          "winner": "Killa Kolya",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Menno",
+          "competitorB": "Kazuki Rock",
+          "winner": "Menno",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Bart",
+          "competitorB": "Killa Kolya",
+          "winner": "Killa Kolya",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Menno",
+          "competitorB": "Killa Kolya",
+          "winner": "Menno",
+          "scoreA": 3,
+          "scoreB": 1
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Menno"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Killa Kolya"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Kazuki Rock"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Bart"
+        }
+      ]
+    },
+    {
+      "slug": "b-girl",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        {
+          "stageName": "Logistx",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Kastet",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Fen Qi",
+          "countryCode": "CN"
+        },
+        {
+          "stageName": "Yell",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "Jilou",
+          "countryCode": "DE"
+        },
+        {
+          "stageName": "Alessandrina",
+          "countryCode": "IT"
+        },
+        {
+          "stageName": "Sarah Bee",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Mimz",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "San Andrea",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Mess",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Ayumi",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Ramona",
+          "countryCode": "FI"
+        },
+        {
+          "stageName": "Estrella",
+          "countryCode": "VE"
+        },
+        {
+          "stageName": "Sidi",
+          "countryCode": "GR"
+        },
+        {
+          "stageName": "Luma",
+          "countryCode": "CO"
+        },
+        {
+          "stageName": "Ami",
+          "countryCode": "JP"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Logistx",
+          "competitorB": "Kastet",
+          "winner": "Kastet",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Fen Qi",
+          "competitorB": "Yell",
+          "winner": "Yell",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Jilou",
+          "competitorB": "Alessandrina",
+          "winner": "Jilou",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Sarah Bee",
+          "competitorB": "Mimz",
+          "winner": "Mimz",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "San Andrea",
+          "competitorB": "Mess",
+          "winner": "San Andrea",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Ayumi",
+          "competitorB": "Ramona",
+          "winner": "Ayumi",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Estrella",
+          "competitorB": "Sidi",
+          "winner": "Estrella",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Luma",
+          "competitorB": "Ami",
+          "winner": "Ami",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Kastet",
+          "competitorB": "Yell",
+          "winner": "Kastet",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Jilou",
+          "competitorB": "Mimz",
+          "winner": "Mimz",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "San Andrea",
+          "competitorB": "Ayumi",
+          "winner": "Ayumi",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Estrella",
+          "competitorB": "Ami",
+          "winner": "Ami",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Kastet",
+          "competitorB": "Mimz",
+          "winner": "Kastet",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Ayumi",
+          "competitorB": "Ami",
+          "winner": "Ayumi",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Kastet",
+          "competitorB": "Ayumi",
+          "winner": "Kastet",
+          "scoreA": 3,
+          "scoreB": 1
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Kastet"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Ayumi"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Mimz"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Ami"
+        }
+      ]
+    }
+  ]
+}

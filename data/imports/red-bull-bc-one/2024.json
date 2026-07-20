@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21",
+    "notes": "Temporary, human-reviewable import data. Bracket scores were cross-checked against the five listed judge votes; verify against an official Red Bull source before publication."
+  },
+  "eventSeries": { "slug": "red-bull-bc-one", "name": "Red Bull BC One" },
+  "edition": {
+    "slug": "red-bull-bc-one-world-final-2024",
+    "name": "Red Bull BC One World Final 2024",
+    "startsAt": "2024-12-07T00:00:00-03:00",
+    "timezone": "America/Sao_Paulo",
+    "city": "Rio de Janeiro",
+    "countryCode": "BR",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [
+      { "name": "Amir", "countryCode": "KZ", "crew": "Predatorz" },
+      { "name": "Narumi", "countryCode": "JP", "crew": "Body Carnival" },
+      { "name": "Jeromeskee", "countryCode": "US", "crew": "Massive Monkees" },
+      { "name": "Roxy", "countryCode": "GB", "crew": "Soul Mavericks" },
+      { "name": "Lil G", "countryCode": "VE", "crew": "Red Bull BC One All Stars / Team Vinotinto" }
+    ],
+    "mcs": [
+      { "name": "Amjad", "countryCode": "CH", "crew": "$7 Crew" },
+      { "name": "Magá Moura", "countryCode": "BR" }
+    ],
+    "djs": [{ "name": "DJ Nobunaga", "countryCode": "NL" }]
+  },
+  "divisions": [
+    {
+      "slug": "bboy-world-final",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        { "stageName": "Hiro 10", "countryCode": "JP" },
+        { "stageName": "Samuka", "countryCode": "BR" },
+        { "stageName": "Quake", "countryCode": "TW" },
+        { "stageName": "Zooty Zoot", "countryCode": "KR" },
+        { "stageName": "Nori", "countryCode": "JP" },
+        { "stageName": "Menno", "countryCode": "NL", "crew": "Hustle Kidz" },
+        { "stageName": "Dias", "countryCode": "KZ" },
+        { "stageName": "Victor", "countryCode": "US" },
+        { "stageName": "Leony", "countryCode": "BR" },
+        { "stageName": "Khalil", "countryCode": "FR" },
+        { "stageName": "Kalmius", "countryCode": "KZ" },
+        { "stageName": "Icey Ives", "countryCode": "US" },
+        { "stageName": "Robb", "countryCode": "BE" },
+        { "stageName": "Klash", "countryCode": "EG" },
+        { "stageName": "Slav", "countryCode": "BG" },
+        { "stageName": "Alvin", "countryCode": "VE" }
+      ],
+      "matches": [
+        { "round": "round_of_16", "order": 1, "competitorA": "Hiro 10", "competitorB": "Samuka", "scoreA": 1, "scoreB": 4, "winner": "Samuka" },
+        { "round": "round_of_16", "order": 2, "competitorA": "Quake", "competitorB": "Zooty Zoot", "scoreA": 1, "scoreB": 4, "winner": "Zooty Zoot" },
+        { "round": "round_of_16", "order": 3, "competitorA": "Nori", "competitorB": "Menno", "scoreA": 2, "scoreB": 3, "winner": "Menno" },
+        { "round": "round_of_16", "order": 4, "competitorA": "Dias", "competitorB": "Victor", "scoreA": 2, "scoreB": 3, "winner": "Victor" },
+        { "round": "round_of_16", "order": 5, "competitorA": "Leony", "competitorB": "Khalil", "scoreA": 0, "scoreB": 5, "winner": "Khalil" },
+        { "round": "round_of_16", "order": 6, "competitorA": "Kalmius", "competitorB": "Icey Ives", "scoreA": 0, "scoreB": 5, "winner": "Icey Ives" },
+        { "round": "round_of_16", "order": 7, "competitorA": "Robb", "competitorB": "Klash", "scoreA": 4, "scoreB": 1, "winner": "Robb" },
+        { "round": "round_of_16", "order": 8, "competitorA": "Slav", "competitorB": "Alvin", "scoreA": 1, "scoreB": 4, "winner": "Alvin" },
+        { "round": "quarterfinal", "order": 1, "competitorA": "Samuka", "competitorB": "Zooty Zoot", "scoreA": 4, "scoreB": 1, "winner": "Samuka" },
+        { "round": "quarterfinal", "order": 2, "competitorA": "Menno", "competitorB": "Victor", "scoreA": 5, "scoreB": 0, "winner": "Menno" },
+        { "round": "quarterfinal", "order": 3, "competitorA": "Khalil", "competitorB": "Icey Ives", "scoreA": 0, "scoreB": 5, "winner": "Icey Ives" },
+        { "round": "quarterfinal", "order": 4, "competitorA": "Robb", "competitorB": "Alvin", "scoreA": 2, "scoreB": 3, "winner": "Alvin" },
+        { "round": "semifinal", "order": 1, "competitorA": "Samuka", "competitorB": "Menno", "scoreA": 2, "scoreB": 3, "winner": "Menno" },
+        { "round": "semifinal", "order": 2, "competitorA": "Icey Ives", "competitorB": "Alvin", "scoreA": 3, "scoreB": 2, "winner": "Icey Ives" },
+        { "round": "final", "order": 1, "competitorA": "Menno", "competitorB": "Icey Ives", "scoreA": 4, "scoreB": 1, "winner": "Menno" }
+      ],
+      "placements": [
+        { "place": 1, "competitor": "Menno", "label": "Winner" },
+        { "place": 2, "competitor": "Icey Ives", "label": "Runner-up" },
+        { "place": 3, "competitor": "Samuka", "label": "Top 4" },
+        { "place": 3, "competitor": "Alvin", "label": "Top 4" }
+      ]
+    },
+    {
+      "slug": "bgirl-world-final",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        { "stageName": "Yasmin", "countryCode": "JP" },
+        { "stageName": "Royal", "countryCode": "CN" },
+        { "stageName": "Syssy", "countryCode": "FR" },
+        { "stageName": "Nicka", "countryCode": "LT" },
+        { "stageName": "Kate", "countryCode": "UA" },
+        { "stageName": "Toquinha", "countryCode": "BR" },
+        { "stageName": "Yingzi", "countryCode": "CN" },
+        { "stageName": "Lola", "countryCode": "ES" },
+        { "stageName": "India", "countryCode": "NL", "crew": "Hustle Kidz / Heavyhitters" },
+        { "stageName": "Starry", "countryCode": "KR" },
+        { "stageName": "Logistx", "countryCode": "US" },
+        { "stageName": "Luma", "countryCode": "CO" },
+        { "stageName": "Mini Japa", "countryCode": "BR" },
+        { "stageName": "Swami", "countryCode": "MX" },
+        { "stageName": "Kimie", "countryCode": "FR" },
+        { "stageName": "Mimz", "countryCode": "JP" }
+      ],
+      "matches": [
+        { "round": "round_of_16", "order": 1, "competitorA": "Yasmin", "competitorB": "Royal", "scoreA": 5, "scoreB": 0, "winner": "Yasmin" },
+        { "round": "round_of_16", "order": 2, "competitorA": "Syssy", "competitorB": "Nicka", "scoreA": 2, "scoreB": 3, "winner": "Nicka" },
+        { "round": "round_of_16", "order": 3, "competitorA": "Kate", "competitorB": "Toquinha", "scoreA": 2, "scoreB": 3, "winner": "Toquinha" },
+        { "round": "round_of_16", "order": 4, "competitorA": "Yingzi", "competitorB": "Lola", "scoreA": 5, "scoreB": 0, "winner": "Yingzi" },
+        { "round": "round_of_16", "order": 5, "competitorA": "India", "competitorB": "Starry", "scoreA": 5, "scoreB": 0, "winner": "India" },
+        { "round": "round_of_16", "order": 6, "competitorA": "Logistx", "competitorB": "Luma", "scoreA": 3, "scoreB": 2, "winner": "Logistx" },
+        { "round": "round_of_16", "order": 7, "competitorA": "Mini Japa", "competitorB": "Swami", "scoreA": 4, "scoreB": 1, "winner": "Mini Japa" },
+        { "round": "round_of_16", "order": 8, "competitorA": "Kimie", "competitorB": "Mimz", "scoreA": 3, "scoreB": 2, "winner": "Kimie" },
+        { "round": "quarterfinal", "order": 1, "competitorA": "Yasmin", "competitorB": "Nicka", "scoreA": 1, "scoreB": 4, "winner": "Nicka" },
+        { "round": "quarterfinal", "order": 2, "competitorA": "Toquinha", "competitorB": "Yingzi", "scoreA": 4, "scoreB": 1, "winner": "Toquinha" },
+        { "round": "quarterfinal", "order": 3, "competitorA": "India", "competitorB": "Logistx", "scoreA": 5, "scoreB": 0, "winner": "India" },
+        { "round": "quarterfinal", "order": 4, "competitorA": "Mini Japa", "competitorB": "Kimie", "scoreA": 0, "scoreB": 5, "winner": "Kimie" },
+        { "round": "semifinal", "order": 1, "competitorA": "Nicka", "competitorB": "Toquinha", "scoreA": 5, "scoreB": 0, "winner": "Nicka" },
+        { "round": "semifinal", "order": 2, "competitorA": "India", "competitorB": "Kimie", "scoreA": 4, "scoreB": 1, "winner": "India" },
+        { "round": "final", "order": 1, "competitorA": "India", "competitorB": "Nicka", "scoreA": 3, "scoreB": 2, "winner": "India" }
+      ],
+      "placements": [
+        { "place": 1, "competitor": "India", "label": "Winner" },
+        { "place": 2, "competitor": "Nicka", "label": "Runner-up" },
+        { "place": 3, "competitor": "Toquinha", "label": "Top 4" },
+        { "place": 3, "competitor": "Kimie", "label": "Top 4" }
+      ]
+    }
+  ]
+}

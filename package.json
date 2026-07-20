@@ -21,6 +21,16 @@
 		"db:generate": "drizzle-kit generate",
 		"db:migrate": "drizzle-kit migrate",
 		"db:studio": "drizzle-kit studio",
+		"data:extract:bc-one-history": "python scripts/extract-red-bull-bc-one-history.py",
+		"db:audit:bc-one": "node --env-file=.env scripts/audit-red-bull-bc-one.mjs",
+		"db:import:bc-one-2018": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2018",
+		"db:import:bc-one-2019": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2019",
+		"db:import:bc-one-2020": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2020",
+		"db:import:bc-one-2021": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2021",
+		"db:import:bc-one-2022": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2022",
+		"db:import:bc-one-2023": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2023",
+		"db:import:bc-one-2024": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2024",
+		"db:import:bc-one-2025": "node --env-file=.env scripts/import-red-bull-bc-one-2025.mjs 2025",
 		"auth:schema": "better-auth generate --config src/lib/server/auth.ts --output src/lib/server/db/auth.schema.ts --yes"
 	},
 	"devDependencies": {
@@ -66,5 +76,8 @@
 		"vite": "^8.0.16",
 		"vitest": "^4.1.8",
 		"vitest-browser-svelte": "^2.1.1"
+	},
+	"dependencies": {
+		"@supabase/supabase-js": "2.110.7"
 	}
 }

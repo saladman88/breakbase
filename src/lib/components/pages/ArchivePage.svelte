@@ -1,12 +1,16 @@
 <script lang="ts">
 	import PageShell from '../shared/PageShell.svelte';
 	import ResultsTable from '../archive/ResultsTable.svelte';
+	import { results as mockResults } from '$lib/data/breakbase';
+	import type { ArchiveResult } from '$lib/types/breakbase';
+
+	let { results = mockResults }: { results?: ArchiveResult[] } = $props();
 </script>
 
 <PageShell active="archive">
 	<header><span>Archive</span><h1>Battle history</h1><p>Every battle counts. Search finished events, placements, and matchups from the global breaking scene.</p></header>
 	<section class="filters"><label class="search">Search<input placeholder="Events, dancers…" /></label><label>Year<select><option>All years</option><option>2025</option><option>2024</option></select></label><label>Country<select><option>All countries</option><option>Japan</option><option>USA</option></select></label><label>Format<select><option>All formats</option><option>1V1</option><option>Crew</option></select></label><button>Reset filters</button></section>
-	<ResultsTable />
+	<ResultsTable {results} />
 	<footer><button>← Prev</button><div><b>1</b><span>2</span><span>3</span><span>4</span><span>…</span><span>28</span></div><button>Next →</button></footer>
 </PageShell>
 

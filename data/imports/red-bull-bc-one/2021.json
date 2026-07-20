@@ -1,0 +1,489 @@
+{
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21"
+  },
+  "eventSeries": {
+    "slug": "red-bull-bc-one",
+    "name": "Red Bull BC One"
+  },
+  "edition": {
+    "slug": "red-bull-bc-one-2021",
+    "name": "Red Bull BC One 2021",
+    "startsAt": "2021-11-06T18:00:00",
+    "timezone": "Europe/Warsaw",
+    "city": "Gdańsk",
+    "countryCode": "PL",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [],
+    "mcs": [],
+    "djs": []
+  },
+  "divisions": [
+    {
+      "slug": "b-boy",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        {
+          "stageName": "Tawfiq",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Gun",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Xak",
+          "countryCode": "ES"
+        },
+        {
+          "stageName": "Lee",
+          "countryCode": "NL"
+        },
+        {
+          "stageName": "Lagaet",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Bart",
+          "countryCode": "BR"
+        },
+        {
+          "stageName": "Phil Wizard",
+          "countryCode": "CA"
+        },
+        {
+          "stageName": "Nori",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Zoopreme",
+          "countryCode": "DK"
+        },
+        {
+          "stageName": "Wild Jerry",
+          "countryCode": "BY"
+        },
+        {
+          "stageName": "Sunni",
+          "countryCode": "GB"
+        },
+        {
+          "stageName": "Amir",
+          "countryCode": "KZ"
+        },
+        {
+          "stageName": "Flea Rock",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Thomaz",
+          "countryCode": "PL"
+        },
+        {
+          "stageName": "Shigekix",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Johnny Fox",
+          "countryCode": "ES"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Tawfiq",
+          "competitorB": "Gun",
+          "winner": "Tawfiq",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "Xak",
+          "competitorB": "Lee",
+          "winner": "Lee",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Lagaet",
+          "competitorB": "Bart",
+          "winner": "Bart",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Nori",
+          "winner": "Phil Wizard",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Zoopreme",
+          "competitorB": "Wild Jerry",
+          "winner": "Zoopreme",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Sunni",
+          "competitorB": "Amir",
+          "winner": "Amir",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Flea Rock",
+          "competitorB": "Thomaz",
+          "winner": "Flea Rock",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Shigekix",
+          "competitorB": "Johnny Fox",
+          "winner": "Shigekix",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Tawfiq",
+          "competitorB": "Lee",
+          "winner": "Lee",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Bart",
+          "competitorB": "Phil Wizard",
+          "winner": "Phil Wizard",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Zoopreme",
+          "competitorB": "Amir",
+          "winner": "Amir",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Flea Rock",
+          "competitorB": "Shigekix",
+          "winner": "Flea Rock",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Lee",
+          "competitorB": "Phil Wizard",
+          "winner": "Phil Wizard",
+          "scoreA": 1,
+          "scoreB": 4
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Amir",
+          "competitorB": "Flea Rock",
+          "winner": "Amir",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Phil Wizard",
+          "competitorB": "Amir",
+          "winner": "Amir",
+          "scoreA": 2,
+          "scoreB": 3
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Amir"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Phil Wizard"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Lee"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Flea Rock"
+        }
+      ]
+    },
+    {
+      "slug": "b-girl",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        {
+          "stageName": "Logistx",
+          "countryCode": "US"
+        },
+        {
+          "stageName": "Yell",
+          "countryCode": "KR"
+        },
+        {
+          "stageName": "San Andrea",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Ayumi",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Ami",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Nadia",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Sidi",
+          "countryCode": "GR"
+        },
+        {
+          "stageName": "Fanny",
+          "countryCode": "FR"
+        },
+        {
+          "stageName": "Kastet",
+          "countryCode": "RU"
+        },
+        {
+          "stageName": "Carito",
+          "countryCode": "AR"
+        },
+        {
+          "stageName": "Ram",
+          "countryCode": "JP"
+        },
+        {
+          "stageName": "Stefani",
+          "countryCode": "GB"
+        },
+        {
+          "stageName": "Paulina",
+          "countryCode": "PL"
+        },
+        {
+          "stageName": "Luma",
+          "countryCode": "CO"
+        },
+        {
+          "stageName": "Madmax",
+          "countryCode": "BE"
+        },
+        {
+          "stageName": "Vavi",
+          "countryCode": "RU"
+        }
+      ],
+      "matches": [
+        {
+          "round": "round_of_16",
+          "order": 1,
+          "competitorA": "Logistx",
+          "competitorB": "Yell",
+          "winner": "Logistx",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 2,
+          "competitorA": "San Andrea",
+          "competitorB": "Ayumi",
+          "winner": "Ayumi",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 3,
+          "competitorA": "Ami",
+          "competitorB": "Nadia",
+          "winner": "Nadia",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "round_of_16",
+          "order": 4,
+          "competitorA": "Sidi",
+          "competitorB": "Fanny",
+          "winner": "Sidi",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 5,
+          "competitorA": "Kastet",
+          "competitorB": "Carito",
+          "winner": "Kastet",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "round_of_16",
+          "order": 6,
+          "competitorA": "Ram",
+          "competitorB": "Stefani",
+          "winner": "Ram",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "round_of_16",
+          "order": 7,
+          "competitorA": "Paulina",
+          "competitorB": "Luma",
+          "winner": "Paulina",
+          "scoreA": 3,
+          "scoreB": 2
+        },
+        {
+          "round": "round_of_16",
+          "order": 8,
+          "competitorA": "Madmax",
+          "competitorB": "Vavi",
+          "winner": "Vavi",
+          "scoreA": 0,
+          "scoreB": 5
+        },
+        {
+          "round": "quarterfinal",
+          "order": 1,
+          "competitorA": "Logistx",
+          "competitorB": "Ayumi",
+          "winner": "Logistx",
+          "scoreA": 4,
+          "scoreB": 1
+        },
+        {
+          "round": "quarterfinal",
+          "order": 2,
+          "competitorA": "Nadia",
+          "competitorB": "Sidi",
+          "winner": "Nadia",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 3,
+          "competitorA": "Kastet",
+          "competitorB": "Ram",
+          "winner": "Kastet",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "quarterfinal",
+          "order": 4,
+          "competitorA": "Paulina",
+          "competitorB": "Vavi",
+          "winner": "Vavi",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "semifinal",
+          "order": 1,
+          "competitorA": "Logistx",
+          "competitorB": "Nadia",
+          "winner": "Logistx",
+          "scoreA": 5,
+          "scoreB": 0
+        },
+        {
+          "round": "semifinal",
+          "order": 2,
+          "competitorA": "Kastet",
+          "competitorB": "Vavi",
+          "winner": "Vavi",
+          "scoreA": 2,
+          "scoreB": 3
+        },
+        {
+          "round": "final",
+          "order": 1,
+          "competitorA": "Logistx",
+          "competitorB": "Vavi",
+          "winner": "Logistx",
+          "scoreA": 5,
+          "scoreB": 0
+        }
+      ],
+      "placements": [
+        {
+          "place": 1,
+          "label": "Winner",
+          "competitor": "Logistx"
+        },
+        {
+          "place": 2,
+          "label": "Runner-up",
+          "competitor": "Vavi"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Nadia"
+        },
+        {
+          "place": 3,
+          "label": "Semifinalist",
+          "competitor": "Kastet"
+        }
+      ]
+    }
+  ]
+}

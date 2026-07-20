@@ -1,5 +1,8 @@
 <script lang="ts">
-	import { results } from '$lib/data/breakbase';
+	import { results as mockResults } from '$lib/data/breakbase';
+	import type { ArchiveResult } from '$lib/types/breakbase';
+
+	let { results = mockResults }: { results?: ArchiveResult[] } = $props();
 </script>
 
 <div class="table-wrap">
@@ -9,6 +12,9 @@
 			{#each results as result}
 				<tr><td>{result.date}</td><td class="event">{result.event}</td><td><span>{result.format}</span></td><td>{result.location}</td><td class="winner">{result.winner}</td><td>{result.runnerUp}</td></tr>
 			{/each}
+			{#if results.length === 0}
+				<tr><td class="empty" colspan="6">No completed battles have been added yet.</td></tr>
+			{/if}
 		</tbody>
 	</table>
 </div>
@@ -22,5 +28,6 @@
 	.event { font-weight: 700; text-transform: uppercase; }
 	td span { padding: 4px 7px; border: 1px solid #566269; border-radius: 3px; font-size: .62rem; }
 	.winner { color: var(--color-lime); font-weight: 700; }
+	.empty { padding: 42px 15px; color: #8f999e; text-align: center; text-transform: uppercase; }
 	tbody tr:last-child td { border-bottom: 0; }
 </style>

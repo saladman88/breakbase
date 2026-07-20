@@ -5,7 +5,7 @@
 		{ id: 'home', label: 'Home', href: '/' },
 		{ id: 'events', label: 'Events', href: '/events' },
 		{ id: 'archive', label: 'Archive', href: '/archive' },
-		{ id: 'dancers', label: 'Dancers', href: '/dancers/kairo' }
+		{ id: 'dancers', label: 'Dancers', href: '/dancers' }
 	] as const;
 </script>
 

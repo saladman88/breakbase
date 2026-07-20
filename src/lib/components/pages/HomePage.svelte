@@ -3,17 +3,29 @@
 	import SectionHeading from '../shared/SectionHeading.svelte';
 	import RankingList from '../dancers/RankingList.svelte';
 	import ResultsTable from '../archive/ResultsTable.svelte';
+	import { results as mockResults } from '$lib/data/breakbase';
+	import type { ArchiveResult, DancerRanking, UpcomingEvent } from '$lib/types/breakbase';
+
+	let {
+		results = mockResults,
+		featuredEvent = null,
+		rankings = []
+	}: { results?: ArchiveResult[]; featuredEvent?: UpcomingEvent | null; rankings?: DancerRanking[] } = $props();
 </script>
 
 <PageShell active="home">
 	<section class="hero">
 		<div class="copy"><span class="tag">Home</span><h1>The global<br />breaking<br />archive</h1><p>Battles. History. Culture. Ranked.<br />The worldwide home of breaking.</p><div class="buttons"><button>Explore archive →</button><button class="ghost">View rankings</button></div></div>
 		<div class="art" aria-hidden="true"><div class="orb">B</div><div class="bolt"></div><span>Respect<br />the culture</span></div>
-		<article class="featured"><small>Featured upcoming battle</small><div><b>Jun<br />29</b><h3>Red Bull BC One<br />World Final 2025</h3><em>1V1</em></div><p>Rio de Janeiro, Brazil</p></article>
+		{#if featuredEvent}
+			<article class="featured"><small>Featured upcoming battle</small><div><b>{featuredEvent.date}</b><h3>{featuredEvent.name}</h3><em>{featuredEvent.format}</em></div><p>{featuredEvent.city}, {featuredEvent.country}</p></article>
+		{:else}
+			<article class="featured"><small>From the archive</small><div><b>2025</b><h3>Red Bull BC One<br />World Final</h3><em>1V1</em></div><p>Tokyo, Japan</p></article>
+		{/if}
 	</section>
 	<section class="dashboard">
-		<div class="results"><SectionHeading eyebrow="Latest" title="Results" action="View all" /><ResultsTable /></div>
-		<div class="trend"><SectionHeading eyebrow="World" title="Top 5" /><RankingList /></div>
+		<div class="results"><SectionHeading eyebrow="Latest" title="Results" action="View all" /><ResultsTable {results} /></div>
+		<div class="trend"><SectionHeading eyebrow="Breakbase ranking" title="Top 5" /><RankingList {rankings} /><small class="method">Results from archived events · placements + battle wins</small></div>
 	</section>
 </PageShell>
 
@@ -32,6 +44,7 @@
 	.art span { position: absolute; right: 0; bottom: 45px; color: var(--color-lime); font-size: .72rem; font-weight: 800; letter-spacing: .15em; text-align: center; text-transform: uppercase; transform: rotate(10deg); }
 	.featured { position: absolute; right: 0; bottom: 35px; z-index: 3; width: min(540px, 48%); padding: 18px; border: 1px solid #647076; border-radius: 7px; background: rgba(16,21,22,.94); }
 	.featured small { display: inline-block; padding: 5px 8px; color: #111; background: var(--color-pink); font-weight: 800; text-transform: uppercase; }
+	.method { display: block; margin-top: 12px; color: #778287; font-size: .58rem; letter-spacing: .04em; text-transform: uppercase; }
 	.featured > div { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 18px; margin-top: 12px; }
 	.featured b { color: var(--color-yellow); font-size: 1.3rem; text-transform: uppercase; }
 	.featured h3 { margin: 0; font-size: 1.45rem; line-height: 1; }

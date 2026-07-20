@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "name": "Wikipedia — Red Bull BC One",
+    "url": "https://en.wikipedia.org/wiki/Red_Bull_BC_One",
+    "retrievedAt": "2026-07-21",
+    "notes": "Temporary, human-reviewable import data. Judge totals and bracket results were transcribed from the 2025 section; verify against an official Red Bull source before publishing."
+  },
+  "eventSeries": {
+    "slug": "red-bull-bc-one",
+    "name": "Red Bull BC One"
+  },
+  "edition": {
+    "slug": "red-bull-bc-one-world-final-2025",
+    "name": "Red Bull BC One World Final 2025",
+    "startsAt": "2025-11-09T00:00:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "city": "Tokyo",
+    "countryCode": "JP",
+    "status": "completed"
+  },
+  "staff": {
+    "judges": [
+      { "name": "Luma", "countryCode": "CO", "crew": "Peligrosos" },
+      { "name": "Kill", "countryCode": "KR", "crew": "Gamblerz / C.A.Y. Crew" },
+      { "name": "Ronnie Ruen", "countryCode": "US", "crew": "Style Elements" },
+      { "name": "Cloud", "countryCode": "US", "crew": "Skill Methodz" },
+      { "name": "Ata", "countryCode": "FI", "crew": "Ghost Crew" }
+    ],
+    "mcs": [
+      { "name": "Amjad", "countryCode": "CH", "crew": "$7 Crew" },
+      { "name": "Kensaku", "countryCode": "JP" }
+    ],
+    "djs": [
+      { "name": "DJ KhanFu", "countryCode": "GB" }
+    ]
+  },
+  "divisions": [
+    {
+      "slug": "bboy-world-final",
+      "name": "B-Boy World Final",
+      "format": "1v1",
+      "category": "bboy",
+      "entrants": [
+        { "stageName": "Jet Leg", "countryCode": "IT" },
+        { "stageName": "Lee", "countryCode": "NL" },
+        { "stageName": "Djibril", "countryCode": "BE" },
+        { "stageName": "Shigekix", "countryCode": "JP" },
+        { "stageName": "Issin", "countryCode": "JP", "crew": "Body Carnival" },
+        { "stageName": "Amir", "countryCode": "KZ" },
+        { "stageName": "Alvin", "countryCode": "VE" },
+        { "stageName": "Icey Ives", "countryCode": "US" },
+        { "stageName": "Fléau", "countryCode": "CA" },
+        { "stageName": "Pesto", "countryCode": "IT" },
+        { "stageName": "Mighty Jake", "countryCode": "VE" },
+        { "stageName": "Lorenzo", "countryCode": "NL" },
+        { "stageName": "Griimsen", "countryCode": "DK" },
+        { "stageName": "FE", "countryCode": "KR" },
+        { "stageName": "Hiro10", "countryCode": "JP" },
+        { "stageName": "Haruto", "countryCode": "JP" }
+      ],
+      "matches": [
+        { "round": "round_of_16", "order": 1, "competitorA": "Jet Leg", "competitorB": "Lee", "scoreA": 1, "scoreB": 4, "winner": "Lee" },
+        { "round": "round_of_16", "order": 2, "competitorA": "Djibril", "competitorB": "Shigekix", "scoreA": 1, "scoreB": 4, "winner": "Shigekix" },
+        { "round": "round_of_16", "order": 3, "competitorA": "Issin", "competitorB": "Amir", "scoreA": 5, "scoreB": 0, "winner": "Issin" },
+        { "round": "round_of_16", "order": 4, "competitorA": "Alvin", "competitorB": "Icey Ives", "scoreA": 1, "scoreB": 4, "winner": "Icey Ives" },
+        { "round": "round_of_16", "order": 5, "competitorA": "Fléau", "competitorB": "Pesto", "scoreA": 2, "scoreB": 3, "winner": "Pesto" },
+        { "round": "round_of_16", "order": 6, "competitorA": "Mighty Jake", "competitorB": "Lorenzo", "scoreA": 5, "scoreB": 0, "winner": "Mighty Jake" },
+        { "round": "round_of_16", "order": 7, "competitorA": "Griimsen", "competitorB": "FE", "scoreA": 1, "scoreB": 4, "winner": "FE" },
+        { "round": "round_of_16", "order": 8, "competitorA": "Hiro10", "competitorB": "Haruto", "scoreA": 0, "scoreB": 5, "winner": "Haruto" },
+        { "round": "quarterfinal", "order": 1, "competitorA": "Lee", "competitorB": "Shigekix", "scoreA": 1, "scoreB": 4, "winner": "Shigekix" },
+        { "round": "quarterfinal", "order": 2, "competitorA": "Issin", "competitorB": "Icey Ives", "scoreA": 4, "scoreB": 1, "winner": "Issin" },
+        { "round": "quarterfinal", "order": 3, "competitorA": "Pesto", "competitorB": "Mighty Jake", "scoreA": 2, "scoreB": 3, "winner": "Mighty Jake" },
+        { "round": "quarterfinal", "order": 4, "competitorA": "FE", "competitorB": "Haruto", "scoreA": 1, "scoreB": 4, "winner": "Haruto" },
+        { "round": "semifinal", "order": 1, "competitorA": "Shigekix", "competitorB": "Issin", "scoreA": 0, "scoreB": 5, "winner": "Issin" },
+        { "round": "semifinal", "order": 2, "competitorA": "Mighty Jake", "competitorB": "Haruto", "scoreA": 0, "scoreB": 5, "winner": "Haruto" },
+        { "round": "final", "order": 1, "competitorA": "Issin", "competitorB": "Haruto", "scoreA": 3, "scoreB": 2, "winner": "Issin" }
+      ],
+      "placements": [
+        { "place": 1, "competitor": "Issin", "label": "Winner" },
+        { "place": 2, "competitor": "Haruto", "label": "Runner-up" },
+        { "place": 3, "competitor": "Shigekix", "label": "Top 4" },
+        { "place": 3, "competitor": "Mighty Jake", "label": "Top 4" }
+      ]
+    },
+    {
+      "slug": "bgirl-world-final",
+      "name": "B-Girl World Final",
+      "format": "1v1",
+      "category": "bgirl",
+      "entrants": [
+        { "stageName": "Riko", "countryCode": "JP", "crew": "One Piece Crew" },
+        { "stageName": "Swami", "countryCode": "MX" },
+        { "stageName": "Leona", "countryCode": "EC" },
+        { "stageName": "Starry", "countryCode": "KR" },
+        { "stageName": "Julianna", "countryCode": "PL" },
+        { "stageName": "Syssy", "countryCode": "FR" },
+        { "stageName": "Freshbella", "countryCode": "KR" },
+        { "stageName": "Jazzy", "countryCode": "TR" },
+        { "stageName": "Stefani", "countryCode": "GB" },
+        { "stageName": "Ayu", "countryCode": "JP" },
+        { "stageName": "Sayora", "countryCode": "KZ" },
+        { "stageName": "Logistx", "countryCode": "US" },
+        { "stageName": "Nicka", "countryCode": "LT" },
+        { "stageName": "Carla", "countryCode": "RO" },
+        { "stageName": "Firebird", "countryCode": "BG" },
+        { "stageName": "Kimie", "countryCode": "FR" }
+      ],
+      "matches": [
+        { "round": "round_of_16", "order": 1, "competitorA": "Riko", "competitorB": "Swami", "scoreA": 5, "scoreB": 0, "winner": "Riko" },
+        { "round": "round_of_16", "order": 2, "competitorA": "Leona", "competitorB": "Starry", "scoreA": 0, "scoreB": 5, "winner": "Starry" },
+        { "round": "round_of_16", "order": 3, "competitorA": "Julianna", "competitorB": "Syssy", "scoreA": 0, "scoreB": 5, "winner": "Syssy" },
+        { "round": "round_of_16", "order": 4, "competitorA": "Freshbella", "competitorB": "Jazzy", "scoreA": 0, "scoreB": 5, "winner": "Jazzy" },
+        { "round": "round_of_16", "order": 5, "competitorA": "Stefani", "competitorB": "Ayu", "scoreA": 3, "scoreB": 2, "winner": "Stefani" },
+        { "round": "round_of_16", "order": 6, "competitorA": "Sayora", "competitorB": "Logistx", "scoreA": 0, "scoreB": 5, "winner": "Logistx" },
+        { "round": "round_of_16", "order": 7, "competitorA": "Nicka", "competitorB": "Carla", "scoreA": 5, "scoreB": 0, "winner": "Nicka" },
+        { "round": "round_of_16", "order": 8, "competitorA": "Firebird", "competitorB": "Kimie", "scoreA": 1, "scoreB": 4, "winner": "Kimie" },
+        { "round": "quarterfinal", "order": 1, "competitorA": "Riko", "competitorB": "Starry", "scoreA": 5, "scoreB": 0, "winner": "Riko" },
+        { "round": "quarterfinal", "order": 2, "competitorA": "Syssy", "competitorB": "Jazzy", "scoreA": 5, "scoreB": 0, "winner": "Syssy" },
+        { "round": "quarterfinal", "order": 3, "competitorA": "Stefani", "competitorB": "Logistx", "scoreA": 1, "scoreB": 4, "winner": "Logistx" },
+        { "round": "quarterfinal", "order": 4, "competitorA": "Nicka", "competitorB": "Kimie", "scoreA": 3, "scoreB": 2, "winner": "Nicka" },
+        { "round": "semifinal", "order": 1, "competitorA": "Riko", "competitorB": "Syssy", "scoreA": 5, "scoreB": 0, "winner": "Riko" },
+        { "round": "semifinal", "order": 2, "competitorA": "Logistx", "competitorB": "Nicka", "scoreA": 0, "scoreB": 5, "winner": "Nicka" },
+        { "round": "final", "order": 1, "competitorA": "Riko", "competitorB": "Nicka", "scoreA": 4, "scoreB": 1, "winner": "Riko" }
+      ],
+      "placements": [
+        { "place": 1, "competitor": "Riko", "label": "Winner" },
+        { "place": 2, "competitor": "Nicka", "label": "Runner-up" },
+        { "place": 3, "competitor": "Syssy", "label": "Top 4" },
+        { "place": 3, "competitor": "Logistx", "label": "Top 4" }
+      ]
+    }
+  ]
+}

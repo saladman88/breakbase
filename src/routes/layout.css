@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --color-night: #151515;
+  --color-panel: #1d2225;
+  --color-cream: #f8f6f0;
+  --color-blue: #4169ff;
+  --color-pink: #ff3daa;
+  --color-lime: #c8ff35;
+  --color-yellow: #ffd84a;
+  --color-muted: #9ca3a8;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  margin: 0;
+  color: var(--color-cream);
+  background: var(--color-night);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: var(--color-night);
+  background: var(--color-lime);
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Archivo Black', sans-serif;
+  text-transform: uppercase;
+}

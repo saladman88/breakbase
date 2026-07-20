@@ -29,7 +29,6 @@ export default defineConfig({
 			alias: { $lib: './src/lib' },
 			preprocess: [mdsvex({ extensions: ['.svx', '.md'] })],
 			extensions: ['.svelte', '.svx', '.md'],
-			experimental: { remoteFunctions: true },
 			typescript: {
 				config: (config) => {
 					config.include.push('../drizzle.config.ts');

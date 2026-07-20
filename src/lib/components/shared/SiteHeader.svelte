@@ -2,18 +2,18 @@
 	let { active = 'home' }: { active?: 'home' | 'events' | 'archive' | 'dancers' } = $props();
 
 	const items = [
-		{ id: 'home', label: 'Home' },
-		{ id: 'events', label: 'Events' },
-		{ id: 'archive', label: 'Archive' },
-		{ id: 'dancers', label: 'Dancers' }
+		{ id: 'home', label: 'Home', href: '/' },
+		{ id: 'events', label: 'Events', href: '/events' },
+		{ id: 'archive', label: 'Archive', href: '/archive' },
+		{ id: 'dancers', label: 'Dancers', href: '/dancers/kairo' }
 	] as const;
 </script>
 
 <header class="header">
-	<a class="brand" href="#home">Breakbase</a>
+	<a class="brand" href="/">Breakbase</a>
 	<nav aria-label="Main navigation">
 		{#each items as item}
-			<a href={'#' + item.id} class:active={active === item.id}>{item.label}</a>
+			<a href={item.href} class:active={active === item.id}>{item.label}</a>
 		{/each}
 	</nav>
 	<div class="actions">

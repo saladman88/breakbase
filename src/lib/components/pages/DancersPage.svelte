@@ -12,7 +12,7 @@
 	<section class="summary"><strong>{dancers.length}</strong><span>documented dancers</span><i></i><span>Red Bull BC One · 2025</span></section>
 	<section class="grid">
 		{#each dancers as dancer, index}
-			<a class={`card ${tones[index % tones.length]}`} href={`/dancers/${dancer.slug}`}>
+			<a class={`card ${tones[index % tones.length]}`} href={`/dancers/${dancer.slug}`} data-sveltekit-preload-data="tap">
 				<div class="number">{String(index + 1).padStart(2, '0')}</div>
 				<div class:photo={dancer.slug === 'hong-10'} class="avatar">
 					{#if dancer.slug === 'hong-10'}

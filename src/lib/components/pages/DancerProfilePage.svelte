@@ -1,5 +1,6 @@
 <script lang="ts">
 	import PageShell from '../shared/PageShell.svelte';
+	import CountryFlag from '../shared/CountryFlag.svelte';
 	import type { DancerProfile } from '$lib/types/breakbase';
 
 	const demoProfile: DancerProfile = {
@@ -31,10 +32,17 @@
 	<section class="profile">
 		<div class="identity">
 			<span>Dancer profile</span>
-			<div class="portrait"><b>{profile.initials}</b><i>{profile.winRate}%</i></div>
+			<div class:has-photo={profile.slug === 'hong-10'} class="portrait">
+				{#if profile.slug === 'hong-10'}
+					<img src="/images/dancers/hong-10/portrait-cutout.webp" alt="Hong 10 performing a freeze" decoding="async" fetchpriority="high" />
+				{:else}
+					<b>{profile.initials}</b>
+				{/if}
+				<i>{profile.winRate}%</i>
+			</div>
 			<p>{profile.category === 'bgirl' ? 'B-Girl' : profile.category === 'bboy' ? 'B-Boy' : 'Breaker'}</p>
 			<h1>{profile.stageName}</h1>
-			<h2>{profile.countryCode ?? '—'} · {profile.country}</h2>
+			<h2><CountryFlag code={profile.countryCode} country={profile.country} size="md" /> {profile.country}</h2>
 			{#if profile.crew}<p class="crew">Represents {profile.crew}</p>{/if}
 		</div>
 
@@ -95,10 +103,14 @@
 	.portrait { position: relative; display: grid; width: 100%; aspect-ratio: 1.2; margin: 20px 0; place-items: center; overflow: hidden; background: linear-gradient(135deg, var(--color-blue), #7448ff); clip-path: polygon(8% 0, 100% 0, 90% 100%, 0 92%); }
 	.portrait::after { position: absolute; width: 80%; height: 30%; background: var(--color-pink); clip-path: polygon(0 40%, 100% 0, 70% 100%); content: ''; transform: rotate(-12deg); }
 	.portrait b { z-index: 1; color: #111; font-family: 'Archivo Black'; font-size: clamp(7rem, 13vw, 13rem); letter-spacing: -.12em; transform: rotate(-10deg); }
+	.portrait img { position: relative; z-index: 2; width: 96%; height: 96%; object-fit: contain; filter: drop-shadow(0 16px 18px rgba(0,0,0,.48)); }
+	.portrait.has-photo { background: linear-gradient(135deg, #10191f, var(--color-blue)); }
+	.portrait.has-photo img { transform: translateY(-8%); }
+	.portrait.has-photo::after { z-index: 1; opacity: .9; }
 	.portrait i { position: absolute; right: 18px; bottom: 25px; z-index: 2; padding: 8px; color: #111; background: var(--color-lime); font-family: 'Archivo Black'; font-size: .8rem; font-style: normal; }
 	.identity p { margin: 0; color: #9ca6aa; font-size: .72rem; text-transform: uppercase; }
 	h1 { margin: 2px 0; overflow-wrap: anywhere; font-size: clamp(3.7rem, 7vw, 7rem); line-height: .82; }
-	h2 { margin: 12px 0; font-family: 'Space Grotesk'; font-size: .9rem; letter-spacing: .1em; text-transform: uppercase; }
+	h2 { display: flex; align-items: center; gap: 9px; margin: 12px 0; font-family: 'Space Grotesk'; font-size: .9rem; letter-spacing: .1em; text-transform: uppercase; }
 	.crew { margin-top: 16px !important; padding-top: 14px; border-top: 1px solid #354047; color: var(--color-yellow) !important; }
 	.stats { display: grid; grid-template-columns: repeat(4, 1fr); margin: 18px 0 28px; border-block: 1px solid #354047; }
 	.stats div { min-width: 0; padding: 16px 12px; border-right: 1px solid #354047; }
